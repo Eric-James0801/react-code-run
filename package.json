@@ -2,7 +2,7 @@
   "name": "react-code-run",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Eric-James0801.github.io.react-code-run",
+  "homepage": "https://Eric-James0801.github.io/react-code-run",
   "dependencies": {
     "@headlessui/react": "^1.7.7",
     "@heroicons/react": "^2.0.13",
