@@ -1,11 +1,11 @@
 import Login from './components/pages/Login'
 import Register from './components/pages/Register'
 import MainContainer from './components/pages/MainContainer'
-import { HashRouter , Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <HashRouter>
+    <Router>
         <Routes>
           <Route path="/">
               <Route index element={<Login/>}/>
@@ -14,7 +14,7 @@ function App() {
               <Route path="/container" element={<MainContainer/>}/>
            </Route> 
         </Routes>
-    </HashRouter>
+    </Router>
   );
 }
 
