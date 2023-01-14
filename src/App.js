@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
-    <Router basename='https://Eric-James0801.github.io/react-code-run'>
+    <Router basename={process.env.PUBLIC_URL}>
         <Routes>
               <Route exact path="/" element={<Login/>}/>
               <Route path="/login" element={<Login/>}/>
