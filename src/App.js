@@ -7,12 +7,10 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route path="/">
-              <Route index element={<Login/>}/>
+              <Route exact path="/" element={<Login/>}/>
               <Route path="/login" element={<Login/>}/>
               <Route path="/register" element={<Register/>}/>
               <Route path="/container" element={<MainContainer/>}/>
-           </Route> 
         </Routes>
     </Router>
   );
